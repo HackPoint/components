@@ -17,6 +17,7 @@ namespace App {
                 });
                 $routeProvider.otherwise("/");
                 // config ui-router  
+                $routeProvider.when("/home", <ng.ui.IState>{ templateUrl: "source/components/home/home.component.html" })
                /* $stateProvider.state("home", <ng.ui.IState>{
                     url: "/",
                     views: {
